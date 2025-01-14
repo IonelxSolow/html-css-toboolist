@@ -6,6 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.header{
+    padding: 1rem;
+    background-color: blue;
+}
 
 .logo{
     font-size: 43px;
@@ -13,4 +17,17 @@
 
 }
 
+.logo-text{
+    
+    
+}
+
+.container{
+
+}
+
+.check{
+    border: 1px;
+    border-radius: 50%;
+}
 
