@@ -6,6 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main{
+    max-width: 800px;
+    margin: 50px auto;
+}
 .header{
     padding: 1rem;
     background-color: blue;
@@ -23,7 +27,7 @@
 
 .container{
     max-width: 800px;
-    margin: 50px auto;
+    margin-left: 20px;
     background-color: white;
     border-radius: 8px;
     padding: 20px;
@@ -36,12 +40,19 @@
     border: 1px solid;
     border-radius: 50%;
 }
-
+.x-fault{
+    font-size: 10px;
+    padding: 3px;
+    color: red;
+    border: 1px solid;
+    border-radius: 50%;
+}
 body{
     display: block;
 }
 
 .editorial{
+    
     font-size: 10px;
     margin-left: 10px;
     padding: 5px;
@@ -49,17 +60,64 @@ body{
     border-radius: 10px;
     border: 1px solid;
 }
+.q1-goals{
+    font-size: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: violet;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.recruiting{
+    font-size: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: rgb(88, 173, 132);
+    border-radius: 10px;
+    border: 1px solid;
+}
+.mobile{
+    font-size: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: rgb(231, 141, 6);
+    border-radius: 10px;
+    border: 1px solid;
+}
+.website {
+    font-size: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: rgb(231, 83, 123);
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.sales{font-size: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: rgb(83, 231, 157);
+    border-radius: 10px;
+    border: 1px solid;}
 
 .button{
+    width: 100px;
     padding: 3px;
     font-size: 15px;
     background-color: red;
     border-radius: 5px;
 }
+
 .input-section{
-    
+    width: 100px;
     padding: 3px;
     font-size: 15px;
     background-color: rgb(55, 184, 59);
     border-radius: 5px;
+}
+
+.new-task{
+    margin-top: 20px;
+    margin-left: 30px;
+
 }
